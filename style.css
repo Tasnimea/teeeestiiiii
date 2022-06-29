@@ -1,0 +1,62 @@
+.fontF{
+    font-family: 'Indie Flower', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+font-family: 'Trispace', sans-serif;
+  font-weight: bold;
+}
+.fontC{
+  color: rgb(55, 88, 96);
+}
+.home{
+    background: rgb(225, 229, 231);
+}
+.badge {
+    height: 85px;
+    width: 80px;   
+    justify-content: center; 
+    border-radius: 50%;
+    background: rgb(234, 234, 81, 0.8);
+  }
+  .yell{
+    color: rgb(208, 208, 74)
+  }
+  
+  .fade-in-text {
+    font-family: Arial;
+    animation: fadeIn 5s infinite;
+    
+  }
+  
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    50% { opacity: 0.5; }
+    90% { opacity: 0.9; }
+    0% { opacity: 0.5; }
+
+
+  }
+  .item
+{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.img-item
+{
+    transition: all 1s;
+    cursor: pointer;
+}
+.item:hover .img-item
+{
+    transform: scale(1.2)
+}
+/* ////////////////////// */
+
+
+.btn-outline :hover{
+  background-color:rgb(208, 208, 74) ;
+}
